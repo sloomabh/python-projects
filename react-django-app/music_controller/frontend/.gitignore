@@ -1,0 +1,23 @@
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore environment variables and sensitive information
+.env
+
+# Ignore database
+db.sqlite3
+
+# Ignore static files that can be generated
+/static/frontend/*
+media/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+/node_modules
